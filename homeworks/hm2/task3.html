@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task3</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .flex {
+            /*gap: 40px;*/
+            background-color: #4F6F51;
+            align-items: normal;
+            align-content: start;
+        }
+
+        .card {
+            margin-top: 30px;
+            width: 250px;
+            height: 200px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.55);
+            font-size: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            scale: 1.1;
+            transition: 1s;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 170px;
+        }
+
+        .main {
+            font-weight: bold;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="card">
+        <div class="main">Січень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 8 годин</div>
+            <div class="data">Температура: -5°C</div>
+            <div class="data">Температурний рекорд: -25°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Лютий</div>
+        <div class="info">
+            <div class="data">Довжина дня: 9 годин</div>
+            <div class="data">Температура: -3°C</div>
+            <div class="data">Температурний рекорд: -20°C</div>
+            <div class="data">Кількість днів: 28 (29 у високосний рік)</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Березень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 1 годин</div>
+            <div class="data">Температура: 2°C</div>
+            <div class="data">Температурний рекорд: -10°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Квітень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 13 годин</div>
+            <div class="data">Температура: 10°C</div>
+            <div class="data">Температурний рекорд: -5°C</div>
+            <div class="data">Кількість днів: 30</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Травень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 15 годин</div>
+            <div class="data">Температура: 15°C</div>
+            <div class="data">Температурний рекорд: 30°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Червень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 17 годин</div>
+            <div class="data">Температура: 20°C</div>
+            <div class="data">Температурний рекорд: 35°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Липень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 16 годин</div>
+            <div class="data">Температура: 25°C</div>
+            <div class="data">Температурний рекорд: 40°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Серпень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 14 годин</div>
+            <div class="data">Температура: 24°C</div>
+            <div class="data">Температурний рекорд: 38°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Вересень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 12 годин</div>
+            <div class="data">Температура: 18°C</div>
+            <div class="data">Температурний рекорд: 30°C</div>
+            <div class="data">Кількість днів: 30</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Жовтень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 10 годин</div>
+            <div class="data">Температура: 10°C</div>
+            <div class="data">Температурний рекорд: 25°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Листопад</div>
+        <div class="info">
+            <div class="data">Довжина дня: 8 годин</div>
+            <div class="data">Температура: 5°C</div>
+            <div class="data">Температурний рекорд: 15°C</div>
+            <div class="data">Кількість днів: 30</div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="main">Грудень</div>
+        <div class="info">
+            <div class="data">Довжина дня: 7 годин</div>
+            <div class="data">Температура: -2°C</div>
+            <div class="data">Температурний рекорд: -20°C</div>
+            <div class="data">Кількість днів: 31</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
