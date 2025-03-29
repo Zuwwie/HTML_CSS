@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task3</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            text-decoration: none;
+        }
+
+        .screen {
+            width: 100vw;
+            height: 100vh;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .screen h2 {
+            font-size: 70px;
+        }
+
+        .screen span {
+            font-size: 2rem;
+            padding: 20px 40px;
+        }
+
+        #first {
+            background-color: #669567;
+        }
+
+        #second {
+            background-color: silver;
+        }
+
+        #third {
+            background-color: lightpink;
+        }
+
+        .screen div a {
+            font-size: 100px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="screen" id="first">
+    <h2>title</h2>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto autem, beatae doloribus esse excepturi inventore ipsa ipsam laboriosam nemo officiis optio quo saepe sint soluta veritatis voluptas voluptatem. Laudantium?</span>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem beatae commodi harum inventore minima nisi porro, quidem tempora tenetur! Aliquam ducimus facere molestiae quam quia quibusdam sunt, totam voluptatem!</span>
+    <div><a href="#second">&#8675</a></div>
+</div>
+<div class="screen" id="second">
+    <div><a href="#first">&#8670</a></div>
+    <h2>title</h2>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque deserunt dignissimos eaque, facere hic mollitia necessitatibus nemo nesciunt obcaecati pariatur quo temporibus tenetur veniam vero! Explicabo maiores maxime tenetur.</span>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi autem eligendi facere ipsum minus molestiae, nihil nobis obcaecati odit officia pariatur perspiciatis quae qui quia quidem rerum sapiente temporibus.</span>
+    <div><a href="#third">&#8675</a></div>
+
+</div>
+<div class="screen" id="third">
+    <div><a href="#second">&#8670</a></div>
+    <h2>title</h2>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id magni veniam. Aperiam commodi consequatur hic id itaque magnam, molestias nihil nisi nulla officia pariatur ratione sapiente vitae, voluptas voluptates!</span>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor dolores eos facere id in, magni natus nesciunt nisi nulla pariatur perspiciatis recusandae, unde. Aliquam aperiam assumenda molestias neque quo!</span>
+</div>
+</body>
+</html>
