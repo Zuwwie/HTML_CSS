@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task1</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+
+    <style>
+
+        main {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: pulse 1.5s ease-in infinite;
+        }
+
+
+        .heart {
+            position: relative;
+            width: 100px;
+            height: 150px;
+            border-radius: 100px 100px 0 0;
+            transform: rotate(45deg);
+            background-color: indianred;
+            margin-left: 50px;
+        }
+
+        .heart1 {
+
+            position: absolute;
+            width: 100px;
+            height: 150px;
+            border-radius: 100px 100px 0 0;
+            transform: rotate(315deg);
+            background-color: indianred;
+            margin-left: -20px;
+
+        }
+
+
+        @keyframes pulse {
+            0%,100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            14% {
+                transform: scale(1.3);
+            }
+            28% {
+                transform: scale(1);
+            }
+            42% {
+                transform: scale(1.3);
+            }
+            70% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="heart"></div>
+    <div class="heart1"></div>
+</main>
+</body>
+</html>
