@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login_section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    flex-direction: column;
+    border: 1px solid silver;
+}
+
+.login_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login_form > input {
+    border: 1px solid grey;
+    height: 36px;
+    width: 268px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.login_form > button {
+    height: 32px;
+    width: 270px;
+    background-color: #68B5FA;
+    padding: 0;
+    border: 1px solid silver;
+    border-radius: 10px;
+    font: inherit;
+    color: whitesmoke;
+    margin: 8px 40px;
+    font-size: large;
+    font-family: inherit, sans-serif;
+}
+
+.br {
+    font-size: 15px;
+    color: #747474;
+    margin: 10px 0;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook > img {
+    width: 20px;
+    height: 20px;
+}
+
+.facebook > button {
+    color: #0395F6;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font: inherit;
+    font-family: inherit, sans-serif;
+    margin: 0 4px;
+}
+
+.remember_password {
+    height: 18px;
+    color: #1542a1;
+    margin: 0 20px;
+}
+
+.register_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid silver;
+    gap: 5px;
+}
+
+.register_section > a {
+    color: #0E99F6;
+}
