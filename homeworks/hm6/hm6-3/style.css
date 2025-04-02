@@ -23,7 +23,7 @@ body {
     border: 1px solid silver;
 }
 
-.login_form {
+.login_form > .form_registration {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ body {
     gap: 5px;
 }
 
-.login_form > input {
+.login_form input {
     border: 1px solid grey;
     height: 36px;
     width: 268px;
@@ -39,7 +39,7 @@ body {
     padding-left: 10px;
 }
 
-.login_form > button {
+.login_form > .form_registration > button {
     height: 32px;
     width: 270px;
     background-color: #68B5FA;
