@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 132px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 491px;
+    width: 319px;
+    background-color: #D9D9D94D;
+    border: 4px solid red;
+    padding: 0 54px;
+
+}
+
+.card h2 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card p {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card .logo_type {
+    top: -50px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid red;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.main > div:nth-child(1) {
+    border-color: #554C4C;
+}
+
+.main > div:nth-child(1) > div {
+    border-color: #554C4C;
+}
+
+.main > div:nth-child(2) {
+    border-color: #65856E;
+}
+
+.main > div:nth-child(2) > div {
+    border-color: #65856E;
+}
+
+.main > div:nth-child(3) {
+    border-color: #554C4C;
+}
+
+.main > div:nth-child(3) > div {
+    border-color: #554C4C;
+}

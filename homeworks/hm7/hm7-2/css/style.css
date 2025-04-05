@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+}
+
+body {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: black;
+
+}
+
+
+/*-------HEADER------*/
+
+
+header {
+    position: fixed;
+    top: 0;
+    /*width: 100%;*/
+    width: 1400px;
+    height: 113px;
+    padding: 0 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #24204A;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3); /* Розмитий ефект */
+    margin-bottom: 10px;
+
+}
+
+header div span {
+    color: rgba(229, 229, 229, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header nav ul a {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*----------first section-----------*/
+
+.first_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 174px 115px 101px 115px;
+    background: #24204A;
+    /*border-top: 1px solid black;*/
+}
+
+.first_section main {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-direction: column;
+    width: 570px;
+}
+
+.first_section main .logo_type {
+    height: 41px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #4B4864;
+    color: #8E88C1;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+
+.first_section h1 {
+    width: 261px;
+    height: 88px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.first_section p {
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 1.1px;
+}
+
+.first_section button {
+    width: 200px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.first_section aside {
+    width: 375px;
+    height: 411px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+    padding: 39px;
+}
+
+.first_section img {
+    margin-left: 24px;
+}
+
+/*----------------second_section--------------------*/
+
+.second_section {
+    padding-top: 50px;
+    padding-bottom: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    background-color: #071341;
+}
+
+.mini-card-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mini-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 175px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.mini-card .bgc {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF537C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+
+.mini-card h3 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mini-card span {
+    width: 102px;
+    color: #8E88C1;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+
+.mini-card:nth-child(1) .bgc {
+    background: #FF6853;
+}
+
+.mini-card:nth-child(3) .bgc {
+    background: #80D2C4;
+}
+
+.mini-card:nth-child(4) .bgc {
+    background: #3F50E7;
+}
+
+.mini-card:nth-child(5) .bgc {
+    background: #95CB7C;
+}
+
+.second_section h2 {
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+
+.second_section p {
+    color: #8E88C1;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+
+.card-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    width: 208px;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 26px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    color: #8E88C1;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+}
+
+/*--------------------------------address--------------------------------*/
+
+address {
+    width: 1400px;
+    height: 664px;
+    flex-shrink: 0;
+}
+
+/*--------------------------------footer-------------------------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    height: 94px;
+    background-color: #071341;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
