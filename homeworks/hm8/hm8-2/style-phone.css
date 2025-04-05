@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 343px;
+        margin: 0 auto;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .container .box img {
+        width: 108px;
+    }
+
+    .container .box {
+        height: 220px;
+        width: 343px;
+    }
+}

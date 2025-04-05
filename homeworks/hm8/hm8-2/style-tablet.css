@@ -1,0 +1,13 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .container .box {
+        height: 258px;
+        width: 348px;
+    }
+}

@@ -1,0 +1,24 @@
+@media screen and (max-width: 769px) {
+
+    body {
+        height: 100%;
+    }
+
+    .first_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 40px;
+        padding: 32px 0 0 0 ;
+    }
+
+    .first_section .card {
+        width: 343px;
+        height: 343px;
+    }
+
+    .first_section .card img {
+        width: 100%;
+    }
+}
